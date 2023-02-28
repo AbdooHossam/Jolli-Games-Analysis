@@ -16,4 +16,4 @@ SELECT
 FROM visit_co
 GROUP BY event_date
 ORDER BY event_date ASC;
-
+ 
