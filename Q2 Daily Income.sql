@@ -9,11 +9,10 @@
 --ELSE '0' 
 
 --END
---  from [Jolify Games]..event
+-- from [Jolify Games]..event
 
  SELECT event_date
       , SUM(CAST(Price AS decimal(8,2))) as income
  FROM [Jolify Games].[dbo].[IAPs]
   group by event_date
   order by event_date asc
-
