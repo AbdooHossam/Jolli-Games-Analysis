@@ -7,7 +7,11 @@ account file : Contains data about User IDs, Device IDs, users ’ages and gende
 age_segment : contains information about age groups.
 
 Requierments:
+
 1- Write down the SQL code to report calculates how many paying user is retained for each day.
+
 2- Write down the SQL code to report the income for each day.
+
 3- Write down the SQL code to report income for both age group and gender. 
+
 4- Write down the SQL code to create Cohort  retention table
