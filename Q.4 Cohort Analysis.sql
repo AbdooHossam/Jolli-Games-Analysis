@@ -31,5 +31,5 @@
 --JOIN event e ON r.user_id = e.user_id
 --WHERE e.event_date = DATEADD(day, 3, r.first_login);
 
-SELECT *
+SELECT*
 FROM retentions;
